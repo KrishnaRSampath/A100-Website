@@ -1,0 +1,24 @@
+body {background-image: -webkit-gradient(
+	linear,
+	right bottom,
+	right top,
+	color-stop(0.3, #4675A0),
+	color-stop(0.9, #FFFFFF)
+	);
+background-image: -o-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
+background-image: -moz-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
+background-image: -webkit-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
+background-image: -ms-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
+background-image: linear-gradient(to top, #4675A0 30%, #FFFFFF 92%);
+	color: #5E1818;}
+
+
+#meetup-logo {height: 100px;
+					width: 160px;
+				}
+
+a {color: #2978A1;
+	font-weight: bold;}
+a:hover {color: white;}
+
+#footer li a{color: white;}

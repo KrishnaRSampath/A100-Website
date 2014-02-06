@@ -30,18 +30,12 @@
 	 		<!-- <img data-stellar-ratio="9" id='dots'src="/a100/website/img/dots.png"> -->
 	 	<!-- <span>Something</span> -->
  	</div>
- 	<div data-magellan-destination='students' data-stellar-offset-parent="true" data-stellar-background-ratio="0.5" class='large-12 small-12'id='students'>	
- 		
- 		<!-- <img class='dots' data-stellar-ratio="7" src="/a100/website/img/dots.png"> -->
- 		
-	 		<!-- <img data-stellar-ratio="9" id='dots'src="/a100/website/img/dots.png"> -->
-	 	
+ 	<div data-magellan-destination='students' data-stellar-offset-parent="true" data-stellar-background-ratio="0.5" class='large-12 small-12'id='students'>		 	
  	</div>
  	<div id='students-bar'>
  		<h1>Level Up Your Coding Skills</h1>
  		<p>We’ll train you in the top technologies sought after by startup companies, and the best practices of Agile software development methodology.
- 				<br><a href="">Learn More</a></p> 
-
+ 		<br><a href="">Learn More</a></p> 
  	</div>
  	<video id='a100-vid' width="320" height="240" controls>
   <source src="/a100/website/vids/a100_vid.mp4" type="video/mp4">

@@ -1,4 +1,6 @@
-body {height: 2500px;}
+/*for front page*/
+body {height: 2500px;
+		}
 
 header  {height: 200px;
           width: 100%;
@@ -7,7 +9,7 @@ header  {height: 200px;
         display: inline-block;
         vertical-align: bottom;
     	float: right;
-    	z-index: 3;
+    	z-index: 5;
     	}
   #navbar div {padding: 0;
   				background-color: transparent;
@@ -20,8 +22,6 @@ header  {height: 200px;
    #navbar ul li {margin-left: 20px;}
 #logo {margin-right: 0;
       }
-
-
 
 .sub-nav {float: right;
 			width: auto;
@@ -52,12 +52,12 @@ header  {height: 200px;
 	right top,
 	color-stop(0.1, #4675A0),
 	color-stop(0.81, #FFFFFF)
-);
-background-image: -o-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
-background-image: -moz-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
-background-image: -webkit-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
-background-image: -ms-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
-background-image: linear-gradient(to top, #4675A0 10%, #FFFFFF 81%);
+	);
+	background-image: -o-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
+	background-image: -moz-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
+	background-image: -webkit-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
+	background-image: -ms-linear-gradient(top, #4675A0 10%, #FFFFFF 81%);
+	background-image: linear-gradient(to top, #4675A0 10%, #FFFFFF 81%);
 		margin-top: 30px;
 		height: auto;
 		width: auto;
@@ -66,6 +66,10 @@ background-image: linear-gradient(to top, #4675A0 10%, #FFFFFF 81%);
 		z-index: 2;
     	position: relative;
 		background-position: 0, 0;}
+@-moz-document url-prefix(){
+  #about{top: 30px;
+  	}
+}
 .logos{ 
 	position: absolute;
     width: 100px;
@@ -124,7 +128,13 @@ background-image: linear-gradient(to top, #81AEDB 0%, #43617A 52%);
 			height: auto;
 			padding-bottom: 100px;
 			opacity: 0.9;
-			}
+			z-index: 4;}
+
+@-moz-document url-prefix(){
+  #students-bar, #partners-bar{top:-550px;
+  	height: 300px;}
+}
+
 	#students-bar {color: white;
 					background-color: #1D324C;}
 	#students-bar h1{ color: white;
@@ -135,7 +145,13 @@ background-image: linear-gradient(to top, #81AEDB 0%, #43617A 52%);
 					 float: right;
 					 margin-right: 20%;}
 	#a100-vid{position: relative;
-				margin: -500px 0 0 60px;}
+				margin: -500px 0 0 60px;
+				z-index: 5;}
+	@-moz-document url-prefix(){
+  #a100-vid{top:-320px;
+  			left: 60px;
+  	}
+}
 
 #partners {background-image: url('/a100/website/img/partners.jpg');
 		height: 30%;
@@ -162,13 +178,13 @@ background-image: linear-gradient(to top, #81AEDB 0%, #43617A 52%);
 	left bottom,
 	color-stop(0, #4675A0),
 	color-stop(0.81, #FFFFFF)
-);
-background-image: -o-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-background-image: -moz-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-background-image: -webkit-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-background-image: -ms-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-background-image: linear-gradient(to bottom, #4675A0 0%, #FFFFFF 81%);
-	height: 20%;
+	);
+	background-image: -o-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+	background-image: -moz-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+	background-image: -webkit-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+	background-image: -ms-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+	background-image: linear-gradient(to bottom, #4675A0 0%, #FFFFFF 81%);
+		height: 20%;
 		width: auto;
 		height: auto;
 		padding-left:50px;
@@ -185,28 +201,28 @@ background-image: linear-gradient(to bottom, #4675A0 0%, #FFFFFF 81%);
 	#meetup-logo {height: 100px;
 					width: 160px;}
 @media only screen and (max-width: 500px){
-#navbar ul {width: 320px;}
-#about p {padding: 10px;
+	#navbar ul {width: 320px;}
+	#about p {padding: 10px;
 					width: 100%;
 					text-align: justify;}
 
-#students-bar p{ width: 100%;
+	#students-bar p{ width: 100%;
 					 text-align: center;
 					 float: none;
 					 margin-right: 0px;}
 
-#contact {background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #4675A0),
-	color-stop(0.81, #FFFFFF)
-);
-background-image: -o-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-background-image: -moz-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-background-image: -webkit-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-background-image: -ms-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
-	background-image: linear-gradient(to bottom, #4675A0 0%, #FFFFFF 81%)}
+	#contact {background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #4675A0),
+		color-stop(0.81, #FFFFFF)
+		);
+		background-image: -o-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+		background-image: -moz-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+		background-image: -webkit-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+		background-image: -ms-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
+			background-image: linear-gradient(to bottom, #4675A0 0%, #FFFFFF 81%)}
 
 }
 
@@ -214,3 +230,98 @@ background-image: -ms-linear-gradient(bottom, #4675A0 0%, #FFFFFF 81%);
 	#a100-vid{ display: none;}
 }
 
+
+/*start of grid option 1 css*/
+
+/*#grid-body { height: auto;}
+#grid-contain {margin: 30px 0 0 20px;
+				width: 95%;
+				border: 1px solid green;
+				padding:0px;}
+
+.item {border: 1px solid red;
+		height: 300px;
+		margin-top: 15px;
+		margin-bottom: 15px;}
+
+.w10 {width: 10%;}
+.w15 {width: 15%;}
+.w20 {width: 20%;}
+.w25 {width: 25%;}
+.w30 {width: 30%;}
+.w40 {width: 40%;}
+.w50 {width: 50%;}
+.w60 {width: 60%;}
+.w70 {width: 70%;}
+.w80 {width: 80%;}
+
+
+.h10 {height: 10%;}
+.h15 {height: 15%;}
+.h20 {height: 20%;}
+.h25 {height: 25%;}
+.h30 {height: 30%;}
+.h35 {height: 35%;}
+.h40 {height: 40%;}*/
+
+/*end of grid option 1 css*/
+
+
+/*start of grid option 2 css*/
+#grid-body {height: 400px;}
+#grid-contain{border: 1px solid green;
+			padding-top: 40px;
+			margin-top: 40px;}
+.item {height: auto;
+		padding: 10px;
+		/*border: 1px solid red;*/
+		display: inline-block;
+		}
+#a {height: 50%;
+	border: 1px solid blue;
+	margin: 10px;}
+#b {height: 60%;
+	width: 160%;
+	border: 1px solid green;
+	margin:10px;}
+#c {height: 30%;
+	width: 100%;
+	border: 1px solid purple;
+	margin: 10px;}
+#d {height: 18%;
+	width: 40%;
+	border: 1px solid orange;
+	margin: 10px;}
+#e {height: 100%;
+	width: 100%;
+	border: 1px solid purple;
+	margin: 10px;}
+#f {height: 40%;
+	width: 55%;
+	border: 1px solid purple;
+	margin: 10px;
+	float: right;
+	position: relative;
+	margin-top: -340px;}
+#g {height: 30%;
+	width: 40%;
+	border: 1px solid red;
+	margin: 10px;
+	float: right;
+	position: relative;
+	margin-top: -150px;}
+#h {height: 30%;
+	width: 17%;
+	border: 1px solid pink;
+	margin: 10px;
+	float: right;
+	position: relative;
+	margin-top: -150px;
+	left: -250px;}
+@media only screen and (max-width: 800px){
+	#a, #b, #c, #d, #e, #f, #g, #h {width: 100%;
+							margin: 0;
+							float: none;
+							height: auto;}
+
+}

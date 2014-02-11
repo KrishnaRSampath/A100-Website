@@ -1,24 +1,228 @@
-body {background-image: -webkit-gradient(
-	linear,
-	right bottom,
-	right top,
-	color-stop(0.3, #4675A0),
-	color-stop(0.9, #FFFFFF)
-	);
-background-image: -o-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
-background-image: -moz-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
-background-image: -webkit-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
-background-image: -ms-linear-gradient(top, #4675A0 30%, #FFFFFF 92%);
-background-image: linear-gradient(to top, #4675A0 30%, #FFFFFF 92%);
-	color: #5E1818;}
+body {
+/*background-color: #6e4030;*/
+background-color: lightgrey;
+}
 
-
-#meetup-logo {height: 100px;
-					width: 160px;
-				}
+hr {border: 2px solid black;}
 
 a {color: #2978A1;
 	font-weight: bold;}
-a:hover {color: white;}
+a:hover {color: #831B15;}
 
 #footer li a{color: white;}
+#meetup-logo {height: 100px;
+			width: 160px;
+			}
+
+.title-area{height: auto;}
+
+.intro {
+	background-color: white;
+	padding: 100px 100px;
+	}
+	.intro h1 {font-size: 100px;
+				text-align: center;
+				font-weight: bold;}
+	.intro h2 {font-size: 70px;
+				text-align: center;}
+
+.long-row {max-width: 100%; }
+#home2-intro {}
+#info-home {height: auto;
+			background-image: url('img/new_haven.jpg');
+			/*background-color: #1B435E;*/
+			/*margin: 60px 0;*/
+			padding: 40px 80px;
+			margin: 20px 0;
+			 }
+
+	#info-home p {font-size: 24px;}
+
+.home-about {	
+			border: 1px solid green;
+			border-radius: 20px;
+			background-color: white;
+			text-align: center;
+			margin-bottom: 20px;}
+
+
+/*students start*/
+.item2 {border: 10px solid white;}
+#contain {background-color: white;}
+#student-first {height: auto;
+				border: 10px solid white;
+				border-bottom: none;
+				background-color: #1B435E;
+				color: white;
+				text-align: right;
+				}
+	#student-first p {font-size: 30px;}			
+	#student-first h1	{color: white;
+						font-weight: bold;
+						text-align: left;}
+#student-second {height: auto;
+				border: 10px solid white;
+				background-color: white;
+				text-align: center;
+				padding: 70px 20px 60px 20px;}
+	#student-second ul li {display: inline-block;}
+#student-third {padding: 30px;
+				background-color: white;
+				}
+
+#student-portfolio {padding: 0;
+					margin-left: 9px;
+					border-right: 10px solid #1B435E;
+					border-bottom: 10px solid #1B435E;
+					border-left: 10px solid #1B435E;}
+#portfolio2 {padding: 20px;
+			text-align: center;
+			background-color: white;}
+	/*#portfolio2 ul li{margin-left: 15%;}*/
+	#portfolio2 img {width: 60%;
+					display: inline-block;
+					border-radius: 20px;}
+#students-fourth {background-color: #831B15;
+					color: white;
+					font-size: 30px;
+					text-align: center;
+					border-left: none;
+					border-top: none;}
+#students-fourth h3{color: white;
+					font-size: 56px;
+					text-align: center;}
+#students-fourth a {color: black;}
+/*students end*/
+
+
+
+/*header start*/
+
+#center-logo {display: inline-block;
+				margin-left: 40%;
+				position: relative;
+				top: 140px;
+				z-index: 100;
+				margin-top: -100px;}
+
+.top-bar-section ul li a {font-size: 32px;}
+/*header end*/
+
+
+/*grid start*/
+#grid-body { height: auto;
+			background-color: lightgrey}
+#grid-contain {margin: 60px 0 0 0;
+				/*border: 1px solid green;*/
+				padding:10px;
+				height: auto;
+			}
+
+.item {
+		/*margin-top: 15px;*/
+		margin-bottom: 15px;
+		/*margin: 15px 0 0 15px;*/
+		background-color: transparent;
+		border: 20px solid #366089;
+		/*border-radius: 20px;*/
+		padding: 100px 10px;
+	}
+
+#for-you {font-size: 24px;
+		 text-align: center;
+		 width: 49%;
+		 /*width: 30%;*/
+		}
+  	/*#for-you h3 {text-align: center;}
+  	#for-you h4 {text-align: center;}
+	#for-you ul{list-style-type: none;}*/
+
+#cover-testimonial {width: 49%;}
+	#cover-testimonial p {display: inline-block;}
+#headshot {float: left;
+			margin-right: 20px;}
+#portfolio {width: 60%;
+			/*width: 30%;*/
+			height: auto;
+			text-align: center;}
+	#portfolio img {width: 60%;
+					display: inline-block;
+					border-radius: 20px;}
+#learn {width: 15%;
+		height: 600px;
+		text-align: center;}
+	#learn ul {list-style-type: none;}
+#apply {width: 20%;
+		height: auto;
+		text-align: center; }
+#timeline{
+	/*width: 40%;*/
+	width:100%;
+}
+#blank1 {border: none;
+		width: 19%;}
+
+.orbit-slide-number {display: none;}
+
+/*grid end*/
+
+
+
+@media only screen and (min-width: 10px) and (max-width: 1300px){
+	#grid-contain {padding: 0px;}
+	#grid-contain .item {width: 100%}
+	#for-you{width: 100%;}
+	#cover-testimonial {width: 100%;}
+	#headshot {height: 150px;
+				width: 150px;
+				display: inline-block;}
+	#portfolio img {width: 40%;}
+	#learn {width: 100%;
+			height: auto;
+			display: inline-block;}
+		#learn ul li {display: inline-block;}
+
+}
+/*small screens*/
+
+@media only screen and (max-width: 40em) {
+		#center-logo {display: inline-block;
+				margin-left: 5%;
+				position: relative;
+				top: 50px;
+				z-index: 100;
+				margin-top: 0;
+				height: 100px;
+				width: 100px;}
+		.top-bar-section ul li a {font-size: 20px;}
+
+		.intro {
+	border: 1px solid red;
+	padding: 20px 20px;
+	}
+		.intro h1 {font-size: 30px;
+				text-align: center;
+				font-weight: bold;}
+	.intro h2 {font-size: 20px;
+				text-align: center;}
+
+	#info-home{padding: 10px;}
+	
+ }
+
+ /*medium screens*/
+ @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+ 	.intro {
+	border: 1px solid red;
+	background-color: white;
+	padding: 100px 100px;
+	}
+ 	.intro h1 {font-size: 70px;
+				text-align: center;
+				font-weight: bold;}
+	.intro h2 {font-size: 50px;
+				text-align: center;}
+
+
+
+ }

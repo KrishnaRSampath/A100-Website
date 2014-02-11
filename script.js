@@ -25,9 +25,11 @@ function assignPositions() {
     $('#scroller .item').each(function(index) {
         $(this).addClass(itemPositions[index]);
     });
+    // initial element
     $('#desc').html($('.middle').attr('desc')); 
+    $('#created_by').html($('.middle').attr('created')); 
     $('#folio_name').html($('.middle').attr('name'));
-    $('#url').html($('.middle').attr('href'));
+    $('#url').html("<a href='"+$('.middle').attr('href')+"' target='_blank'>Visit Project</a>");  
     
 
 
@@ -44,9 +46,11 @@ function scroll(direction) {
         $(this).addClass(itemPositions[index]);
 
     });   
+    // subsiquent elements
     $('#desc').html($('.middle').attr('desc')); 
+    $('#created_by').html($('.middle').attr('created'));
     $('#folio_name').html($('.middle').attr('name'));
-    $('#url').html($('.middle').attr('href'));  
+    $('#url').html("<a href='"+$('.middle').attr('href')+"' target='_blank'>Visit Project</a>");  
 
 }
 // scroller end

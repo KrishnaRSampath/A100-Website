@@ -18,10 +18,6 @@
 <body>
 
 
-	<form action="process.php" method="post">
-		<input type="hidden" name="action" value="portfolio"/>
-	</form>
-
 	<div id="scroller">
 	  <div class="nav">
 	    <a class="prev">&laquo;</a>
@@ -37,12 +33,14 @@
 	  <a class="item" id='someone5&something5' href="#"><img src="http://i.imgur.com/6W8JOza.jpg" /></a>
 	  <a class="item" id='someone6&something6' href="#"><img src="http://i.imgur.com/rwLY1JH.jpg" /></a> -->
 <?php
+	// assign values for each of the portfolio items
 	foreach ($portfolio as $key => $value) {
 		echo "<a class='item' id='". $value['id'] 
-			."' desc='". $value['description'] 
+			."' desc='". $value['description']
+			."' created='". $value['created_by']  
 			."' name='". $value['name']  
 			."' href='". $value['url'] 
-			."' target='_blank'><img src='img/"
+			."' target='_blank'><img src='img/portfolio/"
 			. $value['image_url'] 
 			."'/></a><div class='small'></div>";
 	}
@@ -50,9 +48,10 @@
 ?>
 	</div>
 	<div id='info'>
-		<p>Name: <span id='folio_name'></span></p>
+		<p>Project Name: <span id='folio_name'></span></p>
+		<p>Created By: <span id='created_by'></span></p>
 		<p>Description: <span id='desc'></span></p>
-		<p>Url: <span id='url'></span></p>
+		<p><span id='url'></span></p>
 	</div>
 	
 <script type="text/javascript" src='//code.jquery.com/jquery-1.10.2.min.js'></script>

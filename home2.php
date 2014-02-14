@@ -15,13 +15,20 @@
 
  ?>
 
-<div class='intro' id='home2-intro'>
-
-    <h1>
-     Connecting talented developers 
-     </h1>
-     <h2>with local Connecticut Startups</h2>
-  <!-- <p>We take our Apprentices and give them free trainings, to get them prepared for paid internships with local startup companies eager to work with new talent.</p> -->
+<div class='intro row long-row' id='home2-intro'>
+    <div class='large-6 column' id='home-intro-students'>
+       <h1>
+        Connecting talented developers </h1>
+    </div>
+    <div class='large-6 column' id='home-intro-partners' >
+      <h2>with local Connecticut Startups</h2>
+    </div>
+</div>
+<hr>
+<div class='row'>
+    <div class-'large-12 column' id='home-a100-desc'>
+      <h2>A100 is an Independent Software Initiative that recruits aspiring developers and give them free trainings to get them prepared for paid internships with local startup companies eager to work with new talent. </h2>
+    </div>
 </div>
 <hr>
 <div class='row long-row' id='info-home'>
@@ -29,13 +36,13 @@
     <h2>Interested in Hands-on Web Development Experience?</h2>
     <p>A100 will train you in the top technologies sought after by startup companies, and the best practices of Agile software development methodology. 
     <br> 
-    <a href="">Learn More</a></p>
+    <a href="students.php">Learn More</a></p>
   </div>
   <div class='home-about right large-5 medium-12 small-12 column'>
     <h2>Find Local Talent for Your Startup Company</h2>
     <p>The A100 Program is an exciting opportunity for your company to secure a well-trained software developer as an intern -- and possibly for full-time employment.
     <br> 
-    <a href="">Learn More</a></p>
+    <a href="employers.php">Learn More</a></p>
   </div>
   
 </div>
@@ -96,21 +103,10 @@
  
   <!-- Footer -->
   
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-12 columns">
-          <ul class="inline-list right" id='footer'>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Connect</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </footer>
+<?php 
+
+require ('footer.php');
+ ?>
 
 </body>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

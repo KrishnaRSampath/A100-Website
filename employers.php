@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Students</title>
+	<title>Employers</title>
 	<link rel="stylesheet" type="text/css" href="foundation/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="foundation/css/foundation.min.css">
 	<link rel="stylesheet" type="text/css" href="foundation/icons/foundation-icons.css">
@@ -15,26 +15,26 @@
 
  ?>
 
-<div class='intro' id='student-intro'>
-	<h2>Passionate web developers wanted:</h2>
+<div class='intro' id='employer-intro'>
+	<h2>Great talent right in your backyard</h2>
 	<div class='row long-row'>
 		<div class='large-4 column'>
-			<img class='intro-icon' src="img/pencil.png">
-			<h3>Students</h3>
+			<img src="img/ct.gif">
+			<h3>Local</h3>
 			<p>
 				Current Junior or Seniors in Computer Science, EE, or other technical majors are encouraged to apply. A100 will teach you skills you don't learn in the classroom and give you practice in real-world development environments. 
 			</p>
 		</div>
 		<div class='large-4 column'>
-			<img class='intro-icon' src="img/cap.png">
-			<h3>Graduates</h3>
+			<img src="img/cap.png">
+			<h3>Well-trained</h3>
 			<p>
 				Do you have a technical degree but want some hands-on experience? A100 is a great opportunity to build upon your education and learn the skills start-up companies desire. 
 			</p>
 		</div>
 		<div class='large-4 column'>
-			<img class='intro-icon' src="img/computer.png">
-			<h3>Enthusiasts</h3>
+			<img src="img/low_risk.png">
+			<h3>Low-Risk</h3>
 			<p>
 				You don't need a degree in Computer Science to be a part of A100. Self-taught developers are welcome to apply. Work on projects and build your portfolio while learning new skills and technologies. 
 			</p>
@@ -54,50 +54,49 @@
 	</div>
 </div>
 </div>
-
 <hr>
 
 <div class='se-contain'>
 
-<div class='row long-row' id='student-timeline'>
+<div class='row long-row' id='employer-timeline'>
 	<div class='large-12 column'>
-		<h2>From application to start-up ready: Take a look at the A100 Timeline</h2>
+		<h2>Become an A100 Partner Company and find your next great developer hire!"</h2>
 		<hr>
 		<ul>
-			<li class='timeline-thumb' id='student-timeline-apply'>
+			<li class='timeline-thumb' id='employer-timeline-join'>
 				<img src="img/green_circle.png">
-				Apply
+				Become a Partner Company
 			</li>
-			<li class='timeline-thumb' id='student-timeline-training'>
+			<li class='timeline-thumb' id='employer-timeline-evaluation'>
 				<img src="img/grey_circle_medium.png">
-				Training
+				Evaluation <br><br><br>
 			</li>
-			<li class='timeline-thumb' id='student-timeline-interview'>
+			<li class='timeline-thumb' id='employer-timeline-interview'>
 				<img src="img/grey_circle_medium.png">
-				Interview
+				Interview   <br><br><br>
 			</li>
-			<li class='timeline-thumb' id='student-timeline-apprenticeship'>
+			<li class='timeline-thumb' id='employer-timeline-apprenticeship'>
 				<img src="img/grey_circle_medium.png">
-				Apprenticeship
+				Apprenticeship  <br><br><br>
 			</li>
-			<li class='timeline-thumb' id='student-timeline-hiring'>
+			<li class='timeline-thumb' id='employer-timeline-hiring'>
 				<img src="img/grey_circle_medium.png">
-				Hiring
+				Hiring <br><br><br>
 			</li>
-			<li class='timeline-thumb' id='student-timeline-win'>
+			<li class='timeline-thumb' id='employer-timeline-win'>
 				<img src="img/grey_circle_medium.png">
-				Win
+				Win <br><br><br>
 			</li>
 		</ul>
 		<div id='timeline-description'>
-			<h3 id='timeline-desc-headline'>Apply</h3>
+			<h3 id='timeline-desc-headline'>Become a Partner Company</h3>
 			<p id='timeline-para-headline'>kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj</p>	
 		</div>
 	</div>	
 </div>
 
 <div class='row long-row se-testimonial'>
-	<!-- <div class='large-12 column item2' id='student-testimonial' > -->
+	<!-- <div class='large-12 column item2' id='employer-testimonial' > -->
 		<div class='large-4 column testimonial-thumb '>
 		<img  src="img/grid/headshot.jpg">
 		<br>
@@ -155,34 +154,34 @@
  		$(document).ready(function(){
 
  			$('.timeline-thumb img').hover(function(){
- 				$('#student-timeline-apply img').attr('src', 'img/grey_circle_medium.png');
+ 				$('#employer-timeline-join img').attr('src', 'img/grey_circle_medium.png');
  				$(this).attr('src', 'img/green_circle.png');
 
  				var timelineId = $(this).parent().attr('id');
 
  				switch (timelineId)
 				{
-				case 'student-timeline-apply':
-				  $('#timeline-desc-headline').html("Apply");
+				case 'employer-timeline-join':
+				  $('#timeline-desc-headline').html("Become a Partner Company");
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;
-				  case 'student-timeline-training':
-				  $('#timeline-desc-headline').html("Training");
+				  case 'employer-timeline-evaluation':
+				  $('#timeline-desc-headline').html("Evaluation");
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;
-				  case 'student-timeline-interview':
+				  case 'employer-timeline-interview':
 				  $('#timeline-desc-headline').html("Interview");
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;
-				  case 'student-timeline-apprenticeship':
+				  case 'employer-timeline-apprenticeship':
 				  $('#timeline-desc-headline').html("Apprenticeship");
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;
-				  case 'student-timeline-hiring':
+				  case 'employer-timeline-hiring':
 				  $('#timeline-desc-headline').html("Hiring");
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;
-				  case 'student-timeline-win':
+				  case 'employer-timeline-win':
 				  $('#timeline-desc-headline').html("Win");
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;

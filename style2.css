@@ -1,6 +1,7 @@
 body {
 /*background-color: #6e4030;*/
 background-color: lightgrey;
+
 }
 
 hr {border: 2px solid black;}
@@ -9,9 +10,13 @@ a {color: #2978A1;
 	font-weight: bold;}
 a:hover {color: #831B15;}
 
-#footer li a{color: white;}
-#meetup-logo {height: 100px;
-			width: 160px;
+footer {text-align: center;
+		background-color: white;
+		 
+		padding: 2%;}
+
+#meetup-logo {height: 60px;
+			
 			}
 
 .title-area{height: auto;}
@@ -45,59 +50,36 @@ a:hover {color: #831B15;}
 			text-align: center;
 			margin-bottom: 20px;}
 
-
-/*students start*/
-.item2 {border: 10px solid white;}
-#contain {background-color: white;}
-#student-first {height: auto;
+.student-learn {height: auto;
 				border: 10px solid white;
-				border-bottom: none;
-				background-color: #1B435E;
-				color: white;
-				text-align: right;
-				}
-	#student-first p {font-size: 30px;}			
-	#student-first h1	{color: white;
-						font-weight: bold;
-						text-align: left;}
-#student-second {height: auto;
-				border: 10px solid white;
-				background-color: white;
+				/*background-color: lightgrey;*/
 				text-align: center;
-				padding: 70px 20px 60px 20px;}
-	#student-second ul li {display: inline-block;}
-#student-third {padding: 30px;
-				background-color: white;
-				}
+				padding: 0px 20px;
+				margin-top: 100px;}
+	.student-learn ul li {display: inline-block;
+							margin: 0 50px;}
 
-#student-portfolio {padding: 0;
-					margin-left: 9px;
-					border-right: 10px solid #1B435E;
-					border-bottom: 10px solid #1B435E;
-					border-left: 10px solid #1B435E;}
-#portfolio2 {padding: 20px;
-			text-align: center;
-			background-color: white;}
-	/*#portfolio2 ul li{margin-left: 15%;}*/
-	#portfolio2 img {width: 60%;
-					display: inline-block;
-					border-radius: 20px;}
-#students-fourth {background-color: #831B15;
+.apply-button {height: auto;
+				width: 80%;
+				font-size: 60px;
+				border-radius: 20px;
+				margin-top: 3%;
+				margin-left: 10%;}
+
+.apply-desc {background-color: #831B15;
 					color: white;
-					font-size: 30px;
-					text-align: center;
 					border-left: none;
-					border-top: none;}
-#students-fourth h3{color: white;
-					font-size: 56px;
-					text-align: center;}
-#students-fourth a {color: black;}
-/*students end*/
+					border-top: none;
+					margin-top: 10%;
+					padding: 3%;
+					padding-bottom: 5%;}
 
-
+	.apply-desc h2 {color: white;}
+	.apply-desc p {font-size: 24px;}
 
 /*header start*/
-
+#topbar {margin: 0 5%;
+		max-width: 100%;}
 #center-logo {display: inline-block;
 				margin-left: 40%;
 				position: relative;
@@ -109,40 +91,128 @@ a:hover {color: #831B15;}
 /*header end*/
 
 
-/*grid start*/
+/* home page start*/
+#home-a100-desc {text-align: center;
+				margin: 5% 0;}
+#home2-intro {
+	}
+#home-intro-students {
+					display: inline-block;
+					}
+
+#home-intro-partners {
+						display: inline-block;
+						vertical-align: bottom;
+						margin-top: 10%;
+					 /*background-image: url('img/puzzle_missing.jpg');
+	background-repeat: no-repeat;*/
+	}
+	#home-intro-partners h2 {}
+#info-home{ margin-bottom: 5%;}
+/*home page end*/
+
+
+/*students start*/
+.item2 {border: 10px solid white;}
+.se-contain {background-color: white;}
+#student-intro {text-align: center;}
+#student-timeline {height: auto;
+				border: 10px solid green;
+				text-align: center;
+				}
+	#student-timeline ul li{display: inline-block;
+							margin: 0 40px;
+							text-align: center;}			
+	.timeline-thumb {width: 100px;}
+	#timeline-description {height: 20%;
+							}
+
+.se-testimonial {padding: 50px 30px;
+				/*background-color: pink;*/
+				text-align: center;
+				border: 10px solid white;}
+	.testimonial-thumb {padding-left: 7%;
+						padding-right: 7%;}
+	.testimonial-thumb img{border-radius: 20%;
+					text-align: center;
+					}
+#student-portfolio {padding: 0;
+					margin-left: 0px;
+					/*border: 10px solid #1B435E;*/
+					}
+
+
+
+/*students end*/
+
+/*employers start*/
+#employer-timeline {height: auto;
+				border: 10px solid green;
+				text-align: center;
+				}
+	#employer-timeline ul li{display: inline-block;
+							margin: 0 40px;
+							text-align: center;}	
+#employer-intro {text-align: center;}		
+	
+/*employers end*/
+
+/*alumni start*/
+
+#alumni-portfolio {background-color: orange;
+				margin-bottom: 30px;
+				padding: 40px 30px;}
+	#alumni-portfolio h2 {text-align: center;}			
+
+#modal-flipbook {z-index: 100;
+				}
+	#modal-flipbook .flipbook {
+			border: 1px solid red;}
+		
+	.folio-page {border: 5px solid black;
+				background-color: grey;}
+
+#alumni-testimonial {background-color: lightgreen;
+					height: auto;
+					margin-bottom: 10%;}
+
+.gone {display: none;}
+/*alumni end*/
+
+
+/*grid start
 #grid-body { height: auto;
 			background-color: lightgrey}
 #grid-contain {margin: 60px 0 0 0;
-				/*border: 1px solid green;*/
+				
 				padding:10px;
 				height: auto;
 			}
 
 .item {
-		/*margin-top: 15px;*/
+		margin-top: 15px;
 		margin-bottom: 15px;
-		/*margin: 15px 0 0 15px;*/
+		margin: 15px 0 0 15px;
 		background-color: transparent;
 		border: 20px solid #366089;
-		/*border-radius: 20px;*/
+		border-radius: 20px;
 		padding: 100px 10px;
 	}
 
 #for-you {font-size: 24px;
 		 text-align: center;
 		 width: 49%;
-		 /*width: 30%;*/
+		 width: 30%;
 		}
-  	/*#for-you h3 {text-align: center;}
+  	#for-you h3 {text-align: center;}
   	#for-you h4 {text-align: center;}
-	#for-you ul{list-style-type: none;}*/
+	#for-you ul{list-style-type: none;}
 
 #cover-testimonial {width: 49%;}
 	#cover-testimonial p {display: inline-block;}
-#headshot {float: left;
-			margin-right: 20px;}
+		
 #portfolio {width: 60%;
-			/*width: 30%;*/
+			width: 30%;
 			height: auto;
 			text-align: center;}
 	#portfolio img {width: 60%;
@@ -156,13 +226,13 @@ a:hover {color: #831B15;}
 		height: auto;
 		text-align: center; }
 #timeline{
-	/*width: 40%;*/
+	width: 40%;
 	width:100%;
 }
 #blank1 {border: none;
 		width: 19%;}
 
-.orbit-slide-number {display: none;}
+.orbit-slide-number {display: none;}*/
 
 /*grid end*/
 
@@ -190,7 +260,7 @@ a:hover {color: #831B15;}
 				margin-left: 5%;
 				position: relative;
 				top: 50px;
-				z-index: 100;
+				z-index: 5;
 				margin-top: 0;
 				height: 100px;
 				width: 100px;}
@@ -203,11 +273,14 @@ a:hover {color: #831B15;}
 		.intro h1 {font-size: 30px;
 				text-align: center;
 				font-weight: bold;}
-	.intro h2 {font-size: 20px;
+	.intro h2 {font-size: 36px;
 				text-align: center;}
 
 	#info-home{padding: 10px;}
 	
+	.intro-icon {width: 100px;}
+
+	#student-timeline ul li {margin: 0 20px;}
  }
 
  /*medium screens*/
@@ -223,6 +296,18 @@ a:hover {color: #831B15;}
 	.intro h2 {font-size: 50px;
 				text-align: center;}
 
+	#topbar {margin: 0;
+		max-width: 100%;}
+		#topbar ul li a {font-size: 20px;}
 
+	#center-logo {
+				top: 100px;
+				margin-top: -100px;
+				height: 200px; 
+				width: 200px;}
 
+	.intro-icon {width: 150px;}
  }
+
+
+

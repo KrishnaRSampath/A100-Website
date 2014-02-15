@@ -1,0 +1,104 @@
+/*
+	Color list:
+		1. #343436 (dark-gray)
+		2. #16162F (navy-blue)
+		3. #454548 (medium-gray)
+		4. #9E9EA3 (light-gray)
+*/
+
+body {
+background-color: #343436;
+}
+
+a {
+	color: #343436;
+}
+
+a:hover {
+	color: #16162F;
+}
+
+#topbar, .contain-to-grid {
+	/*
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #343436),
+	color-stop(1, #16162F)
+	);
+	background-image: -o-linear-gradient(bottom, #343436 0%, #16162F 100%);
+	background-image: -moz-linear-gradient(bottom, #343436 0%, #16162F 100%);
+	background-image: -webkit-linear-gradient(bottom, #343436 0%, #16162F 100%);
+	background-image: -ms-linear-gradient(bottom, #343436 0%, #16162F 100%);
+	background-image: linear-gradient(to bottom, #343436 0%, #16162F 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #9E9EA3),
+	color-stop(1, #454548)
+	);
+	background-image: -o-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: -moz-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: -webkit-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: -ms-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: linear-gradient(to bottom, #9E9EA3 0%, #454548 100%);
+	*/
+	background-color: #343436;
+}
+
+h1, h2, h3 {
+	color: #16162F;
+	text-align: center;
+}
+
+.home-about {
+	/*background-color: #16162F;*/
+	color: #16162F;
+	border-color: #343436;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #9E9EA3),
+	color-stop(1, #454548)
+	);
+	background-image: -o-linear-gradient(bottom, #9E9EA3 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #9E9EA3 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #9E9EA3 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #9E9EA3 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #9E9EA3 0%, #FFFFFF 100%);
+}
+
+#info-home {
+	background-image: none;
+	background-color: #9E9EA3;
+}
+
+.intro {
+	background-color: #9E9EA3;
+}
+
+footer {
+	/*
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #9E9EA3),
+	color-stop(1, #454548)
+	);
+	background-image: -o-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: -moz-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: -webkit-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: -ms-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
+	background-image: linear-gradient(to bottom, #9E9EA3 0%, #454548 100%);
+	*/
+	background-color: #9E9EA3;
+	padding: 10px;
+}
+
+hr {
+	border-color: #9E9EA3;
+}

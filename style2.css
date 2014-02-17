@@ -121,11 +121,12 @@ footer {text-align: center;
 				z-index: 100;
 				margin-top: -100px;}
 
-.top-bar-section ul li a {font-size: 32px;}
+.top-bar-section ul li a {font-size: 18px;}
 /*header end*/
 
 
 /* home page start*/
+<<<<<<< HEAD
 #test1 {background-color: #691511;
 		margin-top: 20%;
 		padding: 20px 0 20px 20px;
@@ -151,6 +152,12 @@ background-repeat: no-repeat;
 background-position:center;
 padding-right: 0;
 padding-left: 0;}
+=======
+#home-a100-desc {text-align: center;
+				padding: 100px 100px;}
+#home2-intro {
+	}
+>>>>>>> edited dark theme, added light theme
 #home-intro-students {
 					/*display: inline-block;*/
 					/*background-color: grey;*/

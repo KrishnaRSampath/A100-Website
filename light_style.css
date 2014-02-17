@@ -1,13 +1,13 @@
 /*
 	Color list:
-		1. #343436 (dark-gray)
-		2. #16162F (navy-blue)
-		3. #454548 (medium-gray)
-		4. #9E9EA3 (light-gray)
+		1. #9E9EA3 (light gray)
+		2. #CCCCD1 (lighter gray)
+		3. #CDCDD1 (lightest gray)
+		4. #33336A (medium navy blue)
 */
 
 body {
-background-color: #343436;
+background-color: #9E9EA3;
 }
 
 a {
@@ -15,37 +15,11 @@ a {
 }
 
 a:hover {
-	color: #16162F;
+	color: #33336A;
 }
 
 #topbar, .contain-to-grid {
-	/*
-	background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #343436),
-	color-stop(1, #16162F)
-	);
-	background-image: -o-linear-gradient(bottom, #343436 0%, #16162F 100%);
-	background-image: -moz-linear-gradient(bottom, #343436 0%, #16162F 100%);
-	background-image: -webkit-linear-gradient(bottom, #343436 0%, #16162F 100%);
-	background-image: -ms-linear-gradient(bottom, #343436 0%, #16162F 100%);
-	background-image: linear-gradient(to bottom, #343436 0%, #16162F 100%);
-	background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #9E9EA3),
-	color-stop(1, #454548)
-	);
-	background-image: -o-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
-	background-image: -moz-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
-	background-image: -webkit-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
-	background-image: -ms-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
-	background-image: linear-gradient(to bottom, #9E9EA3 0%, #454548 100%);
-	*/
-	background-color: #343436;
+	background-color: #CDCDD1;
 }
 
 h1, h2, h3 {
@@ -74,16 +48,12 @@ h1, h2, h3 {
 #info-home p, #info-home2 p {
 	text-align: center;
 	vertical-align: center;
-	color: #16162F;
+	color: #33336A;
 	font-size: 20px;
 }
 
 #info-home span, #info-home2 span {
 	text-align: center;
-}
-
-#info-home a:hover {
-	color: #16162F;
 }
 
 #info-home h2 h3 {
@@ -92,13 +62,13 @@ h1, h2, h3 {
 
 #info-home, #info-home2 {
 	background-image: none;
-	background-color: #9E9EA3;
+	background-color: #CCCCD1;
 	padding: 40px 80px;
 	margin: 20px 0;
 }
 
 .intro, #home-a100-desc {
-	background-color: #9E9EA3;
+	background-color: #CDCDD1;
 }
 
 footer {
@@ -116,7 +86,7 @@ footer {
 	background-image: -ms-linear-gradient(bottom, #9E9EA3 0%, #454548 100%);
 	background-image: linear-gradient(to bottom, #9E9EA3 0%, #454548 100%);
 	*/
-	background-color: #9E9EA3;
+	background-color: #CDCDD1;
 	padding: 10px;
 }
 
@@ -124,8 +94,8 @@ hr {
 	border-color: #9E9EA3;
 }
 
-.top-bar-section ul li a {
-	background-color: white;
+.top-bar-section {
+	border-color-bottom: #33336A;
 }
 
 #imgCode {

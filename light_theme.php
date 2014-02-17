@@ -2,13 +2,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>A100</title>
-	<link rel="stylesheet" type="text/css" href="foundation/css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="foundation/css/foundation.min.css">
-	<link rel="stylesheet" type="text/css" href="foundation/icons/foundation-icons.css">
+  <title>A100</title>
+  <link rel="stylesheet" type="text/css" href="foundation/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="foundation/css/foundation.min.css">
+  <link rel="stylesheet" type="text/css" href="foundation/icons/foundation-icons.css">
   <link rel="stylesheet" type="text/css" href="style2.css">
-	<link rel="stylesheet" type="text/css" href="dark_style.css">
-	<script src="foundation/js/vendor/modernizr.js"></script>
+  <link rel="stylesheet" type="text/css" href="light_style.css">
+  <script src="foundation/js/vendor/modernizr.js"></script>
 </head>
 <body>
 <?php 
@@ -105,16 +105,16 @@
             </div>
           </div>
           <div class="large-3 medium-3 columns">
-          	<p>Join our Meetup Group</p>
+            <p>Join our Meetup Group</p>
             <a href=""><img id='meetup-logo' src="/a100/website/img/meetup.png"></a>
             <br><br><br><br>
-		  	<a href=""><img src="/a100/website/img/facebook.png"></a>
+        <a href=""><img src="/a100/website/img/facebook.png"></a>
           </div>
           <div class="large-3 medium-3 columns">
-          	<p>Email: info@indie-soft.com</p>
-		    <p>760 Chapel Street 
-		    	<br/> New Haven, CT 06510 
-		    	<br/><a target='_blank' href="https://www.google.com/maps/preview/place/760+Chapel+St,+New+Haven,+CT+06510/@41.304616,-72.923485,17z/">Map it</a></p>
+            <p>Email: info@indie-soft.com</p>
+        <p>760 Chapel Street 
+          <br/> New Haven, CT 06510 
+          <br/><a target='_blank' href="https://www.google.com/maps/preview/place/760+Chapel+St,+New+Haven,+CT+06510/@41.304616,-72.923485,17z/">Map it</a></p>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@
 <script src="foundation/js/vendor/fastclick.js"></script>
   <script src="foundation/js/foundation.min.js"></script>
   <script type="text/javascript">
-	$(document).foundation();
-	</script>
+  $(document).foundation();
+  </script>
 
 </html>

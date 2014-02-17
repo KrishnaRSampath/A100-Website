@@ -17,20 +17,21 @@
 
 <div class='intro row long-row' id='home2-intro'>
     <div class='large-6 column' id='home-intro-students'>
-       <h1>
-        Connecting talented developers </h1>
-    </div>
-    <div class='large-6 column' id='home-intro-partners' >
+      <h1>Connecting talented developers </h1>
       <h2>with local Connecticut Startups</h2>
     </div>
+   <!--  <div class='large-6 column' id='home-intro-partners' >
+      <h2>with local Connecticut Startups</h2>
+    </div> -->
+    <div class='large-6 column' id='test1'>
+      <h3>
+        A100 is an Independent Software Initiative that recruits aspiring developers and offers free trainings to prepare them for paid internships with local startup companies eager to work with new talent. 
+      </h3>
 </div>
-<hr>
-<div class='row'>
-    <div class-'large-12 column' id='home-a100-desc'>
-      <h2>A100 is an Independent Software Initiative that recruits aspiring developers and give them free trainings to get them prepared for paid internships with local startup companies eager to work with new talent. </h2>
+
     </div>
 </div>
-<hr>
+<!-- Keep -->
 <div class='row long-row' id='info-home'>
   <div class='home-about left large-5 medium-12 small-12 column'>
     <h2>Interested in Hands-on Web Development Experience?</h2>
@@ -46,62 +47,18 @@
   </div>
   
 </div>
-<!-- Three-up Content Blocks -->
- 
-  <!-- <div class="row"> -->
-    <!-- <div class="large-4 medium-4 columns">
-      <img src="/a100/website/img/code.jpg" />
-      <h4>Accelerating Software Careers from Zero to Startup-Ready</h4>
-      <p>We take our Apprentices and give them free trainings, to get them prepared for paid internships with local startup companies eager to work with new talent.</p>
-    </div> -->
-    
-   <!--  <div class="large-6 medium-6 columns">
-      <img src="/a100/website/img/students.jpg" />
-      <h4>Level Up Your Coding Skills</h4>
-      <p>We’ll train you in the top technologies sought after by startup companies, and the best practices of Agile software development methodology. <a href="">Learn More</a></p>
-      
+
+<!-- Keep -->
+<!-- <div class='row long-row' id='a100-desc-contain'>
+    <div class-'large-12 column' id='a100-group-background'>
+      <h2 class='large-8 column' id='home-a100-desc'>A100 is an Independent Software Initiative that recruits aspiring developers and offers free trainings to prepare them for paid internships with local startup companies eager to work with new talent. 
+      </h2>
     </div>
-    
-    <div class="large-6 medium-6 columns">
-      <img src="/a100/website/img/partners.jpg" />
-      <h4>Find talent for your startup</h4>
-      <p>The A100 Program is an exciting opportunity for your company to secure a well-trained software developer as an intern -- and possibly for full-time employment. <a href="">Learn More</a></p> 
-    </div> -->
-  
-    <!-- </div> -->
-    
-<!-- Call to Action Panel -->
-<!-- <div class="row">
-    <div class="large-12 columns">
-    
-      <div class="panel">
-        <h4>Connect with us...</h4>
-        <p>get the latest updates and contact us - we want to hear from you.</p>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            
-            <div><a class="twitter-timeline" href="https://twitter.com/search?q=%23tech" data-widget-id="430524256246431744">Tweets about "#tech"</a>
-            </div>
-          </div>
-          <div class="large-3 medium-3 columns">
-          	<p>Join our Meetup Group</p>
-            <a href=""><img id='meetup-logo' src="/a100/website/img/meetup.png"></a>
-            <br><br><br><br>
-		  	<a href=""><img src="/a100/website/img/facebook.png"></a>
-          </div>
-          <div class="large-3 medium-3 columns">
-          	<p>Email: info@indie-soft.com</p>
-		    <p>760 Chapel Street 
-		    	<br/> New Haven, CT 06510 
-		    	<br/><a target='_blank' href="https://www.google.com/maps/preview/place/760+Chapel+St,+New+Haven,+CT+06510/@41.304616,-72.923485,17z/">Map it</a></p>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div> -->
- 
-  <!-- Footer -->
+</div>
+ -->
+
+
+
   
 <?php 
 

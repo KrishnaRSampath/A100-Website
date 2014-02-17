@@ -1,7 +1,5 @@
 body {
-/*background-color: #6e4030;*/
 background-color: lightgrey;
-
 }
 
 hr {border: 2px solid black;}
@@ -14,6 +12,7 @@ footer {text-align: center;
 		background-color: white;
 		 
 		padding: 2%;}
+
 
 #meetup-logo {height: 60px;
 			
@@ -32,16 +31,6 @@ footer {text-align: center;
 				text-align: center;}
 
 .long-row {max-width: 100%; }
-#home2-intro {}
-#info-home {height: auto;
-			background-image: url('img/new_haven.jpg');
-			/*background-color: #1B435E;*/
-			/*margin: 60px 0;*/
-			padding: 40px 80px;
-			margin: 20px 0;
-			 }
-
-	#info-home p {font-size: 24px;}
 
 .home-about {	
 			border: 1px solid green;
@@ -50,14 +39,17 @@ footer {text-align: center;
 			text-align: center;
 			margin-bottom: 20px;}
 
-.student-learn {height: auto;
-				border: 10px solid white;
-				/*background-color: lightgrey;*/
+.student-learn-icons {height: auto;
+				background-color: lightgrey;
 				text-align: center;
 				padding: 0px 20px;
-				margin-top: 100px;}
-	.student-learn ul li {display: inline-block;
+				margin-top: 0px;}
+	.student-learn-icons ul li {display: inline-block;
 							margin: 0 50px;}
+
+/*.student-learn {}*/
+
+.student-learn p{font-size: 26px;}
 
 .apply-button {height: auto;
 				width: 80%;
@@ -70,12 +62,54 @@ footer {text-align: center;
 					color: white;
 					border-left: none;
 					border-top: none;
-					margin-top: 10%;
 					padding: 3%;
-					padding-bottom: 5%;}
+					padding-bottom: 5%;
+					opacity: 0.9;}
 
 	.apply-desc h2 {color: white;}
 	.apply-desc p {font-size: 24px;}
+.se-timeline {height: auto;
+				/*border: 20px solid lightgrey;*/
+				background-color: #1B435E;
+				color: white;
+				text-align: center;
+				padding-top: 3%;
+				}
+	.se-timeline h2, .se-timeline h3{ color: white;}
+	.se-timeline ul li{display: inline-block;
+							margin: 0 40px;
+							text-align: center;}		
+.timeline-description {height: 25%;
+						text-align: center;
+						width: 40%;
+						margin-left:auto;
+						margin-right: auto; }
+
+	.timeline-thumb {width: 100px;}
+
+
+.se-testimonial {padding: 50px 0px;
+				background-color: lightgrey;
+				text-align: center;
+				}
+	.testimonial-thumb {margin-bottom: 20px;
+						display: in}
+	.testimonial-thumb img{border-radius: 20%;
+					text-align: center;
+					display: inline-block;
+					vertical-align: top;}
+	.testimonial-thumb p {display: inline-block;
+							vertical-align: top;
+							width: 80%;
+							font-size: 26px;}
+
+
+.se-contain {background-color: lightgrey;}
+
+.se-intro-desc {background-color: white;
+		opacity: 0.9;
+		margin-top: 3%;}
+	.se-intro-desc p {font-size: 24px;}
 
 /*header start*/
 #topbar {margin: 0 5%;
@@ -92,77 +126,94 @@ footer {text-align: center;
 
 
 /* home page start*/
-#home-a100-desc {text-align: center;
-				margin: 5% 0;}
-#home2-intro {
-	}
-#home-intro-students {
-					display: inline-block;
-					}
+#test1 {background-color: #691511;
+		margin-top: 20%;
+		padding: 20px 0 20px 20px;
+		}
+	#test1 h3 {color: white;}
+#a100-desc-contain {background-image: url('img/cohort_photo_color.png');
+background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+}
+/*#a100-group-background {text-align: left;
+				margin: 5% 0;
+			
+			}
+	#a100-group-background h2 {color: white;
+						background-color: #691511;
+						opacity: 0.9}*/
+	#home-a100-desc {background-color: white;}
 
-#home-intro-partners {
-						display: inline-block;
+#home2-intro {background-image: url('img/people.jpg');
+background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+padding-right: 0;
+padding-left: 0;}
+#home-intro-students {
+					/*display: inline-block;*/
+					/*background-color: grey;*/
+					}
+	#home-intro-students h1 {color: white;}
+
+#home-intro-partners {	display: inline-block;
 						vertical-align: bottom;
 						margin-top: 10%;
-					 /*background-image: url('img/puzzle_missing.jpg');
-	background-repeat: no-repeat;*/
-	}
-	#home-intro-partners h2 {}
-#info-home{ margin-bottom: 5%;}
+					}
+	#home-intro-students h2 {color: white;}
+
+#info-home {background-color: #1B435E;
+			/*margin-bottom: 5%;*/
+			padding: 40px 80px;
+			opacity: 0.9; }
+
+	#info-home p {font-size: 24px;}
 /*home page end*/
 
 
 /*students start*/
 .item2 {border: 10px solid white;}
-.se-contain {background-color: white;}
-#student-intro {text-align: center;}
-#student-timeline {height: auto;
-				border: 10px solid green;
-				text-align: center;
-				}
-	#student-timeline ul li{display: inline-block;
-							margin: 0 40px;
-							text-align: center;}			
-	.timeline-thumb {width: 100px;}
-	#timeline-description {height: 20%;
-							}
 
-.se-testimonial {padding: 50px 30px;
-				/*background-color: pink;*/
-				text-align: center;
-				border: 10px solid white;}
-	.testimonial-thumb {padding-left: 7%;
-						padding-right: 7%;}
-	.testimonial-thumb img{border-radius: 20%;
-					text-align: center;
-					}
-#student-portfolio {padding: 0;
-					margin-left: 0px;
-					/*border: 10px solid #1B435E;*/
-					}
-
-
+#student-intro {text-align: center;
+				background-image: url('img/people4.jpg');
+background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+opacity: 0.8}
+	
 
 /*students end*/
 
 /*employers start*/
-#employer-timeline {height: auto;
-				border: 10px solid green;
-				text-align: center;
-				}
-	#employer-timeline ul li{display: inline-block;
-							margin: 0 40px;
-							text-align: center;}	
-#employer-intro {text-align: center;}		
 	
+#employer-intro {
+	text-align: center;
+	background-image: url('img/people4.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position:center;
+	opacity: 0.8
+}		
 /*employers end*/
 
 /*alumni start*/
 
-#alumni-portfolio {background-color: orange;
-				margin-bottom: 30px;
-				padding: 40px 30px;}
-	#alumni-portfolio h2 {text-align: center;}			
+#alumni-intro {background-image: url('img/cohort_photo_color.png');
+background-repeat: no-repeat;
+	background-size:100%;
+background-position:center;
+opacity: 0.9;
+padding-top: 20%;
+}
+	#alumni-intro h2 {color: white;
+						height: auto;}
+#alumni-portfolio {background-color: #1B435E;
+				margin: 50px 0;
+				padding: 40px 30px;
+				text-align: center;}
+	#alumni-portfolio h3 {text-align: center;
+						color: white;}			
 
 #modal-flipbook {z-index: 100;
 				}
@@ -172,70 +223,9 @@ footer {text-align: center;
 	.folio-page {border: 5px solid black;
 				background-color: grey;}
 
-#alumni-testimonial {background-color: lightgreen;
-					height: auto;
-					margin-bottom: 10%;}
 
-.gone {display: none;}
+
 /*alumni end*/
-
-
-/*grid start
-#grid-body { height: auto;
-			background-color: lightgrey}
-#grid-contain {margin: 60px 0 0 0;
-				
-				padding:10px;
-				height: auto;
-			}
-
-.item {
-		margin-top: 15px;
-		margin-bottom: 15px;
-		margin: 15px 0 0 15px;
-		background-color: transparent;
-		border: 20px solid #366089;
-		border-radius: 20px;
-		padding: 100px 10px;
-	}
-
-#for-you {font-size: 24px;
-		 text-align: center;
-		 width: 49%;
-		 width: 30%;
-		}
-  	#for-you h3 {text-align: center;}
-  	#for-you h4 {text-align: center;}
-	#for-you ul{list-style-type: none;}
-
-#cover-testimonial {width: 49%;}
-	#cover-testimonial p {display: inline-block;}
-		
-#portfolio {width: 60%;
-			width: 30%;
-			height: auto;
-			text-align: center;}
-	#portfolio img {width: 60%;
-					display: inline-block;
-					border-radius: 20px;}
-#learn {width: 15%;
-		height: 600px;
-		text-align: center;}
-	#learn ul {list-style-type: none;}
-#apply {width: 20%;
-		height: auto;
-		text-align: center; }
-#timeline{
-	width: 40%;
-	width:100%;
-}
-#blank1 {border: none;
-		width: 19%;}
-
-.orbit-slide-number {display: none;}*/
-
-/*grid end*/
-
 
 
 @media only screen and (min-width: 10px) and (max-width: 1300px){
@@ -262,12 +252,12 @@ footer {text-align: center;
 				top: 50px;
 				z-index: 5;
 				margin-top: 0;
-				height: 100px;
-				width: 100px;}
+				height: 100px;	
+				width: 100px;
+			}
 		.top-bar-section ul li a {font-size: 20px;}
 
 		.intro {
-	border: 1px solid red;
 	padding: 20px 20px;
 	}
 		.intro h1 {font-size: 30px;
@@ -280,13 +270,34 @@ footer {text-align: center;
 	
 	.intro-icon {width: 100px;}
 
-	#student-timeline ul li {margin: 0 20px;}
+	.se-timeline ul li {margin: 0 20px;}
+
+	body {background-image: none;
+	}
+
+	.testimonial-thumb img{border-radius: 20%;
+					text-align: center;
+					display: inline-block;
+					vertical-align: top;}
+	.testimonial-thumb p {display: inline-block;
+							vertical-align: top;
+							width: 100%;}
+	#home2-intro {background-image:none;
+		background-size: 100%;
+		margin-top: 0%;
+		padding: 0;}
+	#home-intro-students {background-color: #1B435E;}
+	#home-a100-desc {margin: 0%;}
+	#employer-intro {background-image: none;}
+	#student-intro {background-image: none;}
+	#test1 {margin-top: 0;
+			text-align: center;}
  }
 
  /*medium screens*/
  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
  	.intro {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	background-color: white;
 	padding: 100px 100px;
 	}
@@ -307,6 +318,14 @@ footer {text-align: center;
 				width: 200px;}
 
 	.intro-icon {width: 150px;}
+
+
+	#home2-intro {background-size: 150%}
+	#a100-desc-contain {background-size: 110%;}
+	#home-a100-desc {margin: 10% 0 0 0;}
+	#employer-intro {background-image: none;}
+	#student-intro {background-image: none;}
+ }
  }
 
 

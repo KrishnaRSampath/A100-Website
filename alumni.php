@@ -16,16 +16,36 @@
 
  ?>
 
- <div class='intro'>
-	<h2>Alumni</h2>
+ <div class='intro' id='alumni-intro'>
+	<h2>Meet Our Alumni</h2>
 	<p>
 	</p>
 </div>
 <hr>
+<div class='row'>
+	<div class='large-12 column testimonial-thumb'>
+		<img src="img/grid/headshot.jpg">
+		<p>My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
+			<br>
+			--Tim Scott, A100 Apprentice Fall 2013
+		</p>
+	</div>
+	<div class='large-12 column testimonial-thumb'>
+		<p>My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
+			<br>
+			--Tim Scott, A100 Apprentice Fall 2013
+		</p>
+		<img src="img/grid/headshot2.jpg">
+	</div>
+</div>
 <div id='alumni-contain'>
 	<div id='alumni-portfolio'>
-		<h1>Alumni Portfolio</h1>
-		<h2>Here are a few example of work from our past Apprentices</h2>
+		<h3>Our Apprentices come from varied backgrounds and experience.
+		<br>
+		Here are some highlights of what our Apprentices have accomplished during the program.
+		<br>
+		Click on an Apprentice to view their portfolio.
+		</h3>
 		<div class='alumni-portfolio-pics row'>
 			<a href="#" data-reveal-id="modal-flipbook" data-reveal id='portfolio1'>
 				<img class='alumni-portfolio-pics large-2 medium-4 small-6 column'src="img/grid/headshot.jpg">
@@ -70,44 +90,40 @@
 			    <div id='folio-2'> 
 			    	Bob Smith is a college graduate with a degree in CS from Yale. He has been programming for 6 years and is familiar with HTML/CSS, Javascript, PHP, and Python.
 			    </div>
-			    <div class='gone'></div>
-			    <div class='hide'></div>
+			    <div> 
+			    	<img id='folio-2-img'src="img/partners.jpg">
+			    </div>
+			    <div id='Apply Now'>
+			    	Like what you see?
+			    </div>
 			</div>
 			<a class="close-reveal-modal">&#215;</a>
 		</div>
 	</div>
-	<!-- <div id="myModal" class="reveal-modal" data-reveal>
-		  <h2>Awesome. I have it.</h2>
-		  <p class="lead">Your couch.  It is mine.</p>
-		  <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
-		  <a class="close-reveal-modal">&#215;</a>
-	</div> -->
-	<div class='row'>
-		<div class='large-12 column' id='alumni-testimonial'>
-			<h1>Testimonials</h1>
-			<div class='large-4 column testimonial-thumb '>
-		<img  src="img/grid/headshot.jpg">
-		<br>
-			My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
+</div> <!-- alumni contain -->
+<div class='row'>
+	<div class='large-12 column testimonial-thumb'>
+		<img src="img/grid/headshot3.jpg">
+		<p>My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
 			<br>
 			--Tim Scott, A100 Apprentice Fall 2013
-		</div>
-		<div class='large-4 column testimonial-thumb'>
-		<img src="img/grid/headshot2.jpg">
-		<br>
-			My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
+		</p>
+	</div>
+	<div class='large-12 column testimonial-thumb'>
+		<p>My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
 			<br>
 			--Tim Scott, A100 Apprentice Fall 2013
-		</div>
-		<div class='large-4 column testimonial-thumb'>
-		<img  src="img/grid/headshot4.jpg">
-		<br>
-			My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
-			<br>
-			--Tim Scott, A100 Apprentice Fall 2013
-		</div>
-
-		</div>
+		</p>
+		<img src="img/grid/headshot4.jpg">
+	</div>
+</div>
+<div class='row long-row apply-desc'>
+	<div class='large-6 column' >
+		<p>Like what you see?</p>
+		<a class='button apply-button' href="#">Apply <img src="img/a100_logo_small.png"> Now</a>
+	</div> 
+	<div class='large-6 column' >
+		<a class='button apply-button' href="#">Become an <img src="img/a100_logo_small.png"> Partner</a>
 	</div>
 </div>
 
@@ -149,6 +165,8 @@
 					$('#folio-img').attr('src',"img/grid/headshot.jpg");
 					$('#folio-email').html("rj123@gmail.com");
 					$('#folio-desc').html("Rick James is a college graduate with a degree in CS from Yale. He has been programming for 6 years and is familiar with HTML/CSS, Javascript, PHP, and Python.");
+						
+
 
 				break;
 				case 'portfolio2':
@@ -254,7 +272,8 @@
 			height: 500,
 			tabs:  true,
 	        tabWidth:  180,
-	        tabHeight:  20
+	        tabHeight:  20,
+
 			});
 			
 		}

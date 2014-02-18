@@ -15,21 +15,14 @@
   require('header2.php');
  ?>
 
-<div class='intro' id='home2-intro'>
-
-    <h2>
-     Connecting talented developers 
-     </h2>
-     <h3>with local Connecticut Startups</h3>
-  <!-- <p>We take our Apprentices and give them free trainings, to get them prepared for paid internships with local startup companies eager to work with new talent.</p> -->
-</div>
-
-<br />
-
-<div class='row long-row'>
-    <div class-'large-12 column' id='home-a100-desc'>
+<div class="row long-row intro" id="home2-intro">
+  <div class="large-6 column">
+    <h2>Connecting talented developers</h2>
+    <h3>With local Connecticut Startups</h3>
+  </div>
+  <div class="large-6 column" id="home-a100-desc">
       <h3>A100 is an Independent Software Initiative that recruits aspiring developers and gives them free trainings to get them prepared for paid internships with local startup companies eager to work with new talent. </h3>
-    </div>
+  </div>
 </div>
 
 <div class='row long-row' id='info-home'>
@@ -124,20 +117,11 @@
  
   <!-- Footer -->
   
-  <footer class="row">
-    <div class="large-12 columns" id="foot">
-      <div class="row">
-        <div class="large-12 columns">
-          <ul class="inline-list right" id='footer'>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Connect</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </footer>
+<?php
+
+  require('footer.php');
+
+?>
 
 </body>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

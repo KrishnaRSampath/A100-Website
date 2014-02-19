@@ -23,10 +23,14 @@ footer {text-align: center;
 	background-color: white;
 	padding: 0px 40px;
 	}
-	.intro h1 {font-size: 100px;
+	.intro h1 {/*font-size: 100px;*/
 				text-align: center;
 				font-weight: bold;}
+<<<<<<< HEAD
 	.intro h2 {font-size: 60px;
+=======
+	.intro h2 {/*font-size: 70px;*/
+>>>>>>> 3cea943c1f68028adea26191ace0aa87d5bd6b6f
 				text-align: center;}
 .intro-icon {width: 150px;}
 .long-row {max-width: 100%;}
@@ -128,6 +132,10 @@ footer {text-align: center;
 
 
 
+<<<<<<< HEAD
+=======
+.top-bar-section ul li a {font-size: 18px;}
+>>>>>>> 3cea943c1f68028adea26191ace0aa87d5bd6b6f
 /*header end*/
 
 /*about start*/
@@ -143,7 +151,12 @@ background-position:center;}
 /*about end*/
 
 /* home page start*/
+<<<<<<< HEAD
 #a100-home-desc {background-color: #691511;
+=======
+<<<<<<< HEAD
+#test1 {background-color: #691511;
+>>>>>>> 3cea943c1f68028adea26191ace0aa87d5bd6b6f
 		margin-top: 20%;
 		padding: 20px 0 20px 20px;
 		}
@@ -159,8 +172,24 @@ background-position:center;
 background-repeat: no-repeat;
 	background-size:100%;
 background-position:center;
+<<<<<<< HEAD
 padding: 3% 0;}
 	
+=======
+padding-right: 0;
+padding-left: 0;}
+=======
+#home-a100-desc {text-align: center;
+				padding: 100px 100px;}
+#home2-intro {
+	}
+>>>>>>> edited dark theme, added light theme
+#home-intro-students {
+					/*display: inline-block;*/
+					/*background-color: grey;*/
+					}
+	#home-intro-students h1 {color: white;}
+>>>>>>> 3cea943c1f68028adea26191ace0aa87d5bd6b6f
 
 	#home-intro-headline h1 {color: white;
 								font-size: 75px;}

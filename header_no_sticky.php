@@ -1,13 +1,8 @@
 <header>
-
 <div id='center-logo'>
-<<<<<<< HEAD
-  <a  href="index.php"><img src="img/a100_logo.png"></a>
-=======
   <a href="home2.php"><img src="img/a100_logo.png" id="a100-logo"></a>
->>>>>>> 3cea943c1f68028adea26191ace0aa87d5bd6b6f
 </div>
-<div class="contain-to-grid sticky">
+<div class="contain-to-grid">
 <nav class="top-bar" id='topbar' data-topbar>
   <ul class="title-area">
     <li class="name">

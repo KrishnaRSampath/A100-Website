@@ -27,23 +27,23 @@
       <h3>
         A100 is an Independent Software Initiative that recruits aspiring developers and offers free trainings to prepare them for paid internships with local startup companies eager to work with new talent. 
       </h3>
+    </div>
+
 </div>
 
-    </div>
-</div>
 <!-- Keep -->
 <div class='row long-row' id='info-home'>
-  <div class='home-about left large-5 medium-12 small-12 column'>
+  <div class='home-about left large-6 medium-12 small-12 column'>
     <h2>Interested in Hands-on Web Development Experience?</h2>
     <p>A100 will train you in the top technologies sought after by startup companies, and the best practices of Agile software development methodology. 
     <br> 
-    <a href="students.php">Learn More</a></p>
+    <a class='button' href="students.php">Learn More</a></p>
   </div>
-  <div class='home-about right large-5 medium-12 small-12 column'>
+  <div class='home-about right large-6 medium-12 small-12 column'>
     <h2>Find Local Talent for Your Startup Company</h2>
-    <p>The A100 Program is an exciting opportunity for your company to secure a well-trained software developer as an intern -- and possibly for full-time employment.
+    <p>The A100 Program is an exciting opportunity for your company to secure a well-trained software developer as an intern.
     <br> 
-    <a href="employers.php">Learn More</a></p>
+    <a class='button' href="employers.php">Learn More</a></p>
   </div>
   
 </div>

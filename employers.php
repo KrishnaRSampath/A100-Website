@@ -19,22 +19,22 @@
 	<div class='se-intro-desc'>
 		<h2>Great talent right in your backyard</h2>
 		<div class='row long-row'>
-			<div class='large-4 column'>
-				<img src="img/ct.gif">
+			<div class='large-4 medium-4 column'>
+				<img class='intro-icon' src="img/ct.gif">
 				<h3>Local</h3>
 				<p>
 					A100 is commited to keeping Connecticut talent in Connecticut and that is why we are trying to connect our Apprentices with local startups. We want to see Connecticut's tech scene grow!
 				</p>
 			</div>
-			<div class='large-4 column'>
-				<img src="img/cap.png">
+			<div class='large-4 medium-4 column'>
+				<img class='intro-icon' src="img/cap.png">
 				<h3>Well-trained</h3>
 				<p>
 					We train our Apprentices in skills that will allow them to hit the ground running. They create projects in PHP, Javascript, HTML 5/CSS 3 and learn in a real-world setting so they will be prepared to help your company on day one.
 				</p>
 			</div>
-			<div class='large-4 column'>
-				<img src="img/low_risk.png">
+			<div class='large-4 medium-4 column'>
+				<img class='intro-icon' src="img/low_risk.png">
 				<h3>Low-Risk</h3>
 				<p>
 					A100 Apprentices 
@@ -45,7 +45,7 @@
 </div>
 <br><hr><br>
 <div class='row long-row'>
-	<div class='large-4 column student-learn-icons'>
+	<div class='large-5 column student-learn-icons'>
 			<ul>
 				<li><img src="img/html5-64.png"></li>
 				<li><img src="img/css3-64.png"></li>
@@ -54,7 +54,7 @@
 				<li><img src="img/github.png"></li>
 			</ul> 
 	</div>
-	<div class='large-5 column student-learn'>
+	<div class='large-7 column student-learn'>
 		<h2>Partnering with A100</h2>
 		<p>A100 trains Apprentices in basic skills so you don't have to. </p>
 		<h4><a href="alumni.php#alumni-portfolio">Check out projects from past Apprentices</a></h4>
@@ -80,7 +80,7 @@
 			</li>
 			<li class='timeline-thumb' id='employer-timeline-apprenticeship'>
 				<img src="img/grey_circle_medium.png">
-				Apprenticeship  <br><br><br>
+				Apprentice  <br><br><br>
 			</li>
 			<li class='timeline-thumb' id='employer-timeline-hiring'>
 				<img src="img/grey_circle_medium.png">
@@ -129,13 +129,13 @@
 </div> 
 <hr>
 <div class='row long-row apply-desc'>
-	<div class='large-5 column'>
+	<div class='large-5 medium-5 column'>
 		<h2>Ready to get started?</h2>
 		<p>
 			If your startup is interested in becoming an A100 Partner Company. 
 		</p> 
 	</div>
-	<div class='large-7 column' >
+	<div class='large-7 medium-7 column' >
 		<a class='button apply-button' href="#">Become an <img src="img/a100_logo_small.png"> Partner Today</a>
 	</div> 
 </div>
@@ -181,7 +181,7 @@
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;
 				  case 'employer-timeline-apprenticeship':
-				  $('#timeline-desc-headline').html("Apprenticeship");
+				  $('#timeline-desc-headline').html("Apprentice");
 				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
 				  break;
 				  case 'employer-timeline-hiring':

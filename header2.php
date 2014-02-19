@@ -1,6 +1,7 @@
 <header>
+
 <div id='center-logo'>
-  <a href="home2.php"><img src="img/a100_logo.png"></a>
+  <a  href="index.php"><img src="img/a100_logo.png"></a>
 </div>
 <div class="contain-to-grid sticky">
 <nav class="top-bar" id='topbar' data-topbar>

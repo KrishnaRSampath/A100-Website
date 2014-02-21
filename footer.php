@@ -12,14 +12,14 @@
 			info@indie-soft.com
 		</div>
 		<div class='large-4 column'>
-			<a href="http://www.indie-soft.com"><img src="img/indie-software.jpg"></a>
+			<a href="http://www.indie-soft.com"><img src="img/indie-software-clear.png"></a>
 		</div>
 		<div class='large-4 column'>
 			Connect with Us:
 			<br>
-			<a href=""><img src="img/facebook.png"></a>
-			<a href="" ><img id='meetup-logo'src="img/meetup.png"></a>
-			<a href="" ><img src="img/twitter.png"></a>
+			<a href="https://www.facebook.com/Apprentice100"><img src="img/facebook.png"></a>
+			<a href="http://www.meetup.com/a100-dev-community" ><img id='meetup-logo'src="img/meetup.png"></a>
+			<a href="https://twitter.com/CodeA100" ><img src="img/twitter.png"></a>
 		</div>
 		
 	

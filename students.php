@@ -45,21 +45,20 @@
 </div>
 <hr>
 <div class='row long-row'>
+	<div class='large-7 column student-learn'>
+		<h2>What you will learn</h2>
+		<p>A100 provides free training in skills that will prepare you for a job at local startup companies. You will create projects in a real-world setting, learn how to develop software with a team, and work within the agile software development methodology during the course of the program. </p>
+		<h4><a href="alumni.php#alumni-portfolio">Check out projects from past Apprentices</a></h4>
+	</div>
 	<div class='large-5 column student-learn-icons'>
 			<ul>
-				<li><img src="img/html5-64.png"></li>
+				<li><img src="img/HTML5-64.png"></li>
 				<li><img src="img/css3-64.png"></li>
 				<li><img src="img/javascript.png"></li>
 				<li><img src="img/php-logo.jpg"></li>
 				<li><img src="img/github.png"></li>
 			</ul> 
 	</div>
-	<div class='large-7 column student-learn'>
-		<h2>What you will learn</h2>
-		<p>A100 provides free training in skills that will prepare you for a job at local startup companies. You will create projects in a real-world setting, learn how to develop software with a team, and work within the agile software development methodology during the course of the program. </p>
-		<h4><a href="alumni.php#alumni-portfolio">Check out projects from past Apprentices</a></h4>
-	</div>
-	<div class='large-2 column'></div>
 </div>
 <hr>
 <div class='row long-row se-timeline'>
@@ -93,7 +92,7 @@
 		</ul>
 		<div class='timeline-description'>
 			<h3 id='timeline-desc-headline'>Apply</h3>
-			<p id='timeline-para-headline'>Fill out the <a class='tan'href="apply.php">application form</a> and you will be contacted by our Program Manager for an interview and a short coding test.</p>	
+			<p id='timeline-para-headline'>The first step is to fill out the <a class='tan'href="apply.php">application form</a>. If selected to continue the application process you will have an interview with our Program Manager and take a short coding test.</p>	
 		</div>
 	</div>	
 </div>
@@ -105,42 +104,42 @@
 	</div> -->
 <div class='se-contain'>
 		<div class='long-row row se-testimonial'>
-			<div class='testimonial-thumb large-4  column'>
-				<img src="img/grid/headshot.jpg">
+			<div class='testimonial-thumb large-4 column'>
+				<img src="img/headshots/tom.jpg">
 				<p>
-					My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
+					I joined the A100 Program to supplement my CS degree from Southern with some experience building real-world projects and to find an awesome company to join. After a successful apprenticeship with Independent Software, I'm now working as a full time developer.
 					<br>
-					--Tim Scott, A100 Apprentice Fall 2013
+					--- Thomas Sonnemann, junior developer at Independent Software
 				</p>	
 			</div>
 			<div class='testimonial-thumb large-4 column'>
-				<img src="img/grid/headshot2.jpg">
+				<img src="img/headshots/ted.jpg">
 				<p>
-					My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
+					Connecticut can fund startups; we can offer them places to work. We can do all that, but if we don't have developers, we're going nowhere. The A100 Program provided me with a great Apprentice, whom I hired immediately after his apprenticeship.
 					<br>
-					--Tim Scott, A100 Apprentice Fall 2013
+					--Ted Yang, a founder of MediaCrossing in Stamford, a digital media trading company.
 				</p>
 			</div>
 			<div class='testimonial-thumb large-4 column'>
-				<img src="img/grid/headshot3.jpg">
+				<img src="img/headshots/nicole.jpg">
 				<p>
-					My A100 experience was amazing. I learned so much about web development and they were all things I did not get in a traditional classroom. After the program I feel that I'm more rounded and prepared for a career in web development. 
+					Being on a team and working to create a fully functional website is both exciting and challenging. Becoming an A100 Apprentice was the best move I’ve made for my education and career in software development. 
 					<br>
-					--Tim Scott, A100 Apprentice Fall 2013
+					--Nicole Flokos, A100 Apprentice Fall 2013
 				</p>
 			</div>
-			<h4><a href="alumni.php#alumni-testimonial">Read More Testimonials</a></h4>
+			<h5><a href="alumni.php#alumni-testimonial">Read More Testimonials</a></h5>
 		</div>
 </div> 
 
 <div class='row long-row apply-desc'>
-	<div class='large-5 medium-5 column'>
+	<div class='large-7 medium-7 column'>
 		<h2>Ready to get started?</h2>
 		<p>
 			College juniors, seniors, or graduates are encouraged to apply as well as self-taught enthusiast who want to take their skills to a new level.
 		</p> 
 	</div>
-	<div class='large-7 medium-7 column' >
+	<div class='large-5 medium-5 column' >
 		<a class='button apply-button' href="#">Apply <img src="img/a100_logo_small.png"> Now</a>
 	</div> 
 </div>
@@ -169,7 +168,7 @@
 				{
 				case 'student-timeline-apply':
 				  $('#timeline-desc-headline').html("Apply");
-				  $('#timeline-para-headline').html('Fill out the <a class="tan" href="apply.php">application form</a> and you will be contacted by our Program Manager for an interview and a short coding test.');
+				  $('#timeline-para-headline').html('The first step is to fill out the <a class="tan" href="apply.php">application form</a>. If selected to continue the application process you will have an interview with our Program Manager and take a short coding test.');
 				  break;
 				  case 'student-timeline-training':
 				  $('#timeline-desc-headline').html("Training");
@@ -181,15 +180,15 @@
 				  break;
 				  case 'student-timeline-apprenticeship':
 				  $('#timeline-desc-headline').html("Apprentice");
-				  $('#timeline-para-headline').html('During this time you will be apprenticing at the startup.');
+				  $('#timeline-para-headline').html('During this time you will be apprenticing at the startup. You will create projects and complete tasks determined by your new company - welcome to the real world.');
 				  break;
 				  case 'student-timeline-hiring':
 				  $('#timeline-desc-headline').html("Hiring");
-				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
+				  $('#timeline-para-headline').html('After your internship is completed you and your partner company will discuss the next steps - if they decide you are a good fit you have the opportunity to start working full time.');
 				  break;
 				  case 'student-timeline-win':
 				  $('#timeline-desc-headline').html("Win");
-				  $('#timeline-para-headline').html('kasdasjdklasjdlasjdlasd asldkj asdlkjas dlkasjd aslkd aslkdj asdlkj');
+				  $('#timeline-para-headline').html('The A100 program provides valuable skills and experience that will help you become a better developer and with our help you can find a great opportunity with local startup companies.');
 				  break;
 				}
 

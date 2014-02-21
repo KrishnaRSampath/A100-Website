@@ -1,17 +1,14 @@
 <header>
-
+<div id='header-space'></div>
 <div id='center-logo'>
-<<<<<<< HEAD
   <a  href="index.php"><img src="img/a100_logo.png"></a>
-=======
-  <a href="home2.php"><img src="img/a100_logo.png" id="a100-logo"></a>
->>>>>>> 3cea943c1f68028adea26191ace0aa87d5bd6b6f
+
 </div>
 <div class="contain-to-grid sticky">
 <nav class="top-bar" id='topbar' data-topbar>
   <ul class="title-area">
     <li class="name">
-      
+      <img id='a100_text_small' src="img/a100_text.png">
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
@@ -27,6 +24,9 @@
         </ul>
       </li>
       <li><a href="students.php">Students</a></li>
+    </ul>
+    <ul id='a100_text'>
+      <li><a href="index.php"><img src="img/a100_text.png"></a></li>
     </ul>
     <!-- Right Nav Section -->
     <ul class="right">

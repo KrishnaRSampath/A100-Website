@@ -16,7 +16,7 @@
  ?>
 
 <div class='intro' id='about-intro'>
- <h1>About A100</h1>
+ <!-- <h1>About A100</h1> -->
 
 </div>
 <div id='about-contain'>
@@ -40,14 +40,14 @@
 		<h4>What is the curriculum?</h4>
 		<p>Our trainings and projects vary from cohort to cohort but you can expect to have trainings on Javascript, PHP, HTM5/CSS3, Git/Version Control, and agile software development. </p>
 		<h4>What are the requirements to apply?</h4>
-		<p>Anyone who is interested in the program can apply but we are looking for individuals with some background in web/software development since this is not a program for beginners. Most of our past Apprentices have been students in CS, EE, or similar fields, but we have also had some self-taught individuals without formal technical training. Applicants should be familiar with ???  </p>
+		<p>Anyone who is interested in the program can apply but we are looking for individuals with some background in web/software development since this is not a program for beginners. Most of our past Apprentices have been students in CS, EE, or similar fields, but we have also had some self-taught individuals without formal technical training. Applicants should be familiar with HTML/CSS, a backend language like Java, C+, PHP, or Python, and version control.  </p>
 		<h4>Is this a coding bootcamp?</h4>
 		<p>No, A100 is not a coding bootcamp. We are not a program for beginners but expect a certain understanding of web/software development. </p>
 
 		</div>
 	</div>
 	<h2>Connect with Us</h2>
-	<p>We want to hear from you! Follow us on Twitter, Like us on Facebook, Join us for a Meetup, or email us a question/comment. </p>
+	<p>We want to hear from you! Follow us on Twitter,  Join us for a Meetup, or email us a question/comment. </p>
 	<div class='row'>
 
 	<div class="small-12 medium-6 large-6 column" id='soc-media'><a class="twitter-timeline" href="https://twitter.com/CodeA100" data-widget-id="435830164677591040">Tweets by @CodeA100</a>
@@ -60,54 +60,40 @@
 
 	<div class="small-12 medium-6 large-6 column">
 		<div class='row'>
-			<div class='large-5 column'>
-				<p>We have weekly meetups on Thursday Nights at the Grove in New Haven</p>
-			</div>
 			<div class='large-7 column no-pad'>
-				<img src="img/meetup_small.png">
+				<p>We have weekly meetups on Thursday Nights at the Grove in New Haven. Join us to learn more about the program and meet with current and past Apprentices.</p>
 			</div>
-		</div>
-		<br><br>
-		<div class='row'>
 			<div class='large-5 column no-pad'>
-				<p>Find us on Facebook and get the latest updates</p>
-			</div>
-			<div class='large-7 column no-pad'>
-				<img src="img/facebook_find.png">
+				<a href="http://www.meetup.com/a100-dev-community"><img src="img/meetup_small.png"></a>
 			</div>
 		</div>
 		<br><br>
 		<div class='row'>
-			
-			<div class='large-4 column no-pad'>
-				Contact Us
-				<br>
-				info@indie-soft.com
-				<br>
-				760 Chapel Street 
-				<br>
-				New Haven, CT 06510
+			<div class='large-6 column no-pad'>
+				Contact us with your questions about the program or if you want specific information.
+				<br> 
+				<a href="mailto:info@indie-soft.com">Email Us</a>
 			</div>
 			<div class='large-3 column no-pad'>
 				<img src="img/a100_logo_small.png">
 			</div>
-			<div class='large-5 column'>
+			<div class='large-3 column'>
 
 			</div>
 		</div>
 		
-	</div>
+		</div>
 	</div>
 	
 </div>
-
+<hr class='white-hr'>
 
 
 
 
 
 <?php 
-	// require('footer.php');
+	require('footer.php');
  ?>
 </body>
  

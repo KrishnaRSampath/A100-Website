@@ -43,8 +43,8 @@
 	</div>
 	
 </div>
-<hr>
-<div class='row long-row'>
+
+<div class='row se-learn' >
 	<div class='large-7 column student-learn'>
 		<h2>What you will learn</h2>
 		<p>A100 provides free training in skills that will prepare you for a job at local startup companies. You will create projects in a real-world setting, learn how to develop software with a team, and work within the agile software development methodology during the course of the program. </p>
@@ -60,7 +60,7 @@
 			</ul> 
 	</div>
 </div>
-<hr>
+
 <div class='row long-row se-timeline'>
 	<div class='large-12 column'>
 		<h2>From application to start-up ready: Take a look at the A100 Timeline</h2>
@@ -158,7 +158,8 @@
  <script type="text/javascript">
  		$(document).ready(function(){
 
- 			$('.timeline-thumb img').hover(function(){
+ 			$('.timeline-thumb img').click(function(){
+ 				$('.timeline-thumb img').attr('src', 'img/grey_circle_medium.png')
  				$('#student-timeline-apply img').attr('src', 'img/grey_circle_medium.png');
  				$(this).attr('src', 'img/green_circle.png');
 
@@ -195,12 +196,14 @@
 
 
  				
- 			}, function(){
- 				$(this).attr('src', 'img/grey_circle_medium.png');
- 				// $('#timeline-desc-headline').html('');
- 				// $('#timeline-para-headline').html('');
+ 			}
+ 			// , function(){
+ 			// 	$(this).attr('src', 'img/grey_circle_medium.png');
+ 			// 	// $('#timeline-desc-headline').html('');
+ 			// 	// $('#timeline-para-headline').html('');
 
- 			})
+ 			// }
+ 			)
 
 		
 

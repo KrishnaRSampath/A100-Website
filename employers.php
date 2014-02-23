@@ -43,8 +43,8 @@
 		</div>
 	</div>
 </div>
-<br><hr><br>
-<div class='row long-row'>
+
+<div class='row  se-learn'>
 	
 	<div class='large-7 column student-learn'>
 		<h2>Partnering with A100</h2>
@@ -61,7 +61,7 @@
 			</ul> 
 	</div>
 </div>
-<br><hr><br>
+
 <div class='row long-row se-timeline'>
 	<div class='large-12 column'>
 		<h2>Become an A100 Partner Company and find your next great developer hire!</h2>
@@ -127,7 +127,7 @@
 			<h5><a href="alumni.php#alumni-testimonial">Read More Testimonials</a></h5>
 		</div>
 </div> 
-<hr>
+
 <div class='row long-row apply-desc'>
 	<div class='large-7 medium-7 column'>
 		<h2>Ready to get started?</h2>
@@ -160,7 +160,8 @@
  <script type="text/javascript">
  		$(document).ready(function(){
 
- 			$('.timeline-thumb img').hover(function(){
+ 			$('.timeline-thumb img').click(function(){
+ 				$('.timeline-thumb img').attr('src', 'img/grey_circle_medium.png')
  				$('#employer-timeline-join img').attr('src', 'img/grey_circle_medium.png');
  				$(this).attr('src', 'img/green_circle.png');
 
@@ -178,7 +179,7 @@
 				  break;
 				  case 'employer-timeline-interview':
 				  $('#timeline-desc-headline').html("Interview");
-				  $('#timeline-para-headline').html('After the Apprentices are done with their program you will have the opportunity to interview.');
+				  $('#timeline-para-headline').html('After the Apprentices are done with their program you will have the opportunity to interview them to see if there is someone your company is interested in hiring as an intern.');
 				  break;
 				  case 'employer-timeline-apprenticeship':
 				  $('#timeline-desc-headline').html("Apprentice");
@@ -186,23 +187,27 @@
 				  break;
 				  case 'employer-timeline-hiring':
 				  $('#timeline-desc-headline').html("Hiring");
-				  $('#timeline-para-headline').html('At the end of the intership period you have the option to hire the Apprentice at your company.');
+				  $('#timeline-para-headline').html('At the end of the intership period you have the option to hire the Apprentice at your company. There is no obligation to hire after the internship but many of our partner companies find a spot of thier interns.');
 				  break;
 				  case 'employer-timeline-win':
 				  $('#timeline-desc-headline').html("Win");
-				  $('#timeline-para-headline').html("The A100 program provides you with a pool of well-trained candidates that can help your startup.");
+				  $('#timeline-para-headline').html("The mission of the A100 program is to connect developers with companies looking for talent. Whether you hire an Apprentice after the internship or not you will still have access to a pool of well-trained candidates that can help your startup.  ");
 				  break;
 				}
 
 
 
  				
- 			}, function(){
- 				$(this).attr('src', 'img/grey_circle_medium.png');
- 				// $('#timeline-desc-headline').html('');
- 				// $('#timeline-para-headline').html('');
+ 			}
+ 			//for hover
+ 			// , function(){
+ 			// 	$(this).attr('src', 'img/grey_circle_medium.png');
+ 			// 	// $('#timeline-desc-headline').html('');
+ 			// 	// $('#timeline-para-headline').html('');
 
- 			})
+ 			// }
+
+ 			)
 
 
  		})

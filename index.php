@@ -20,9 +20,6 @@
       <h1>Connecting talented developers </h1>
       <h2>with Connecticut Based Startup Companies</h2>
     </div>
-   <!--  <div class='large-6 column' id='home-intro-partners' >
-      <h2>with local Connecticut Startups</h2>
-    </div> -->
     <div class='large-6 column' id='a100-home-desc'>
       <h3>
         A100 is an intiative of Independent Software that recruits aspiring developers and offers free trainings to prepare them for paid internships with local startup companies eager to work with new talent. 
@@ -50,14 +47,6 @@
   
 </div>
 
-<!-- Keep -->
-<!-- <div class='row long-row' id='a100-desc-contain'>
-    <div class-'large-12 column' id='a100-group-background'>
-      <h2 class='large-8 column' id='home-a100-desc'>A100 is an Independent Software Initiative that recruits aspiring developers and offers free trainings to prepare them for paid internships with local startup companies eager to work with new talent. 
-      </h2>
-    </div>
-</div>
- -->
 
 
 
